@@ -1,0 +1,68 @@
+# Genel sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE/Editor dosyaları
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/mvnw
+!.mvn/wrapper/mvnw.cmd
+.mvn/
+
+# Gradle
+.gradle/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# IntelliJ IDEA
+*.iml
+*.iws
+*.ipr
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Build artifacts
+build/
+dist/
+
+# Coverage reports
+coverage/
+
+# Yarn
+.yarn/
+.yarnrc
+
+# Kubernetes
+*.kube/
+
+# Eclipse
+.project
+.classpath
+.settings/
