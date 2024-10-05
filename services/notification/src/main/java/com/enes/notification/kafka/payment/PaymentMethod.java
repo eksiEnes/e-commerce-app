@@ -1,10 +1,14 @@
-package com.enes.order.order;
+package com.enes.notification.kafka.payment;
 
 public enum PaymentMethod {
 
     PAYPAL,
+
     CREDIT_CARD,
+
     VISA,
-    MASTER_CARD,
+
+    MASTERCARD,
+
     BITCOIN
 }
